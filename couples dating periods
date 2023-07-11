@@ -1,0 +1,13 @@
+Couples = ["Stepan and Koko", "Amir and Zere", "Od and Mari", "Norbert and Sasha"]
+dating_period = {
+    "Stepan and Koko": 8, 
+    "Amir and Zere": 17,
+    "Od and Mari": 4,
+    "Norbert and Sasha": 48
+}
+for couple in Couples:
+    print(f"{couple} is dating for {dating_period[couple]} months. ")
+    if dating_period[couple] > 12:
+        print("old couples")
+    else:
+        print("fresh couples")
